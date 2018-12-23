@@ -1,0 +1,21 @@
+<font face="verdana">
+
+<title>IREC 2018 Motion Data</title>
+
+<h1>IREC 2018 Motion Data</h1>
+
+<h2>A Note About Acceleration Ranges</h2>
+
+<p>
+The BNO055 is most accurate at lower accelerations (+/-4 <i>g</i> for this model, +/-16 <i>g</i> for newer models), which is why we also flew the MMA65XX high-range accelerometer, which measures accelerations up to 120 <i>g</i> in two axes. If you zoom in to the main burn between 17 and 22 seconds (do this by selecting the magnifying glass in the lower left below the plot, then dragging a rectangle around a section of the plot), you can see that the BNO055's measurement of the ascent acceleration saturates at 3 <i>g</i>, which is about its 4 <i>g</i> maximum minus the 1 <i>g</i> gravity vector. For high acceleration stages of flight such as this, please make sure to look at the second plot below this one, which shows the data from the MMA65XX, and will give you a better idea of the forces involved during motor burn, ejection charge firings, and landing. In the future, these two datasets will be combined.
+</p>
+
+<p>
+For this reason, you will also notice that the roll rates measured by the BNO055 in the bottom plot also saturates around 2000 deg/s because that is its maximum configurable range. We currently do not have higher range gyroscopic measurments to account for this.
+</p>
+
+<h2>These plots are interactive!</h2>
+
+Hover over a plot and select the magnifying glass that appears in the lower left corner of the plot. Then, drag a rectangle around the part of the plot you would like to zoom in on. You can return to the original view by clicking the home icon.
+
+</font>
